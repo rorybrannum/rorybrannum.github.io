@@ -3,10 +3,6 @@
 	margin: 0;
 }
 
-#slogan {
-	font-style: italic;
-	color:#ffffff;
-}
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 20px;
@@ -15,34 +11,46 @@ body {
 
 }
 header {
-	background-color: #7ec0ee;
+	background-color: #7e88ee;
 	padding:20px;
 	position:fixed;
 	top:0px;
 	left:0px;
 	width:100%;
 }
+#slogan {
+	font-style: italic;
+	color:#222;
+	font-size: 1.7em;
+}
 
 h1 {
+	font-size: 1.6em;
 	color: #ffffff;
+	float: left;
 }
 
 a {
 	color:#7ec0ee;
 }
 
+nav {
+	float: right;
+}
+
 nav a {
 	color: #555555;
-	margin-right: 10px;
+	margin-right: 40px;
 }
 
 #hero {
-	background:url(../images/istock_bluebonnets.jpg);
+	background: url(../images/istock_bluebonnets.jpg);
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: bottom center;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 550px;
+	height: 350px;
+	padding: 250px;
 }
 main {
 	padding: 20px;
@@ -51,8 +59,36 @@ main {
 ul,ol {
 	padding-left: 20px;
 }
+
+#box-one {
+	box-sizing: border-box;
+	border: 1px solid black;
+	width: 33.33%;
+	float: left;
+	padding: 20px;
+	height: 500px;
+}
+
+#box-two {
+	box-sizing: border-box;
+	border: 1px solid black;
+	width: 33.33%;
+	float: center;
+	padding: 20px;
+	height: 500px;
+}
+
+#box-three {
+	box-sizing: border-box;
+	border: 1px solid black;
+	width: 33.33%;
+	float: right;
+	padding: 20px;
+	height: 500px;
+}
+
 footer {
 	background-color: #dddddd;
 	padding: 20px;
-
 }
+
