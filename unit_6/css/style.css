@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Catamaran);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 20px; /*20 px =1em*/
+	color: #222222;
+	line-height: 1.3em;
+}
+
+header {
+	background-color: #7e88ee;
+	padding:20px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+}
+h1 {
+	font-family: Catamaran , sans-serif;
+	font-size: 1.6em;
+	color: #ffffff;
+	float: left;
+}
+
+h2 {
+	font-family: Catamaran, sans-serif;
+	font-size: 1.7em;
+}
+
+h3 {
+	font-family: Catamaran, sans-serif;
+	font-size: 1.2em;
+}
+
+h4 {
+	font-family: Catamaran, sans-serif;
+	font-size: 1.1em;
+}
+h2,h3,h4 {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+nav {
+	float: right;
+	font-family: catamaran, sans-serif;
+	padding: 20px;
+}
+
+nav a {
+	color: #fff;
+	margin-right: 40px;
+	text-decoration: none;
+}
+
+
+
+p {
+	font-family: EB+Garamond, serif;
+	font-size: 1em;
+	line-length: 45em;
+}
+
+a {
+	color:#717ad6;
+}
+
+ul,ol {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 2em;
+
+}
+
+
+
+#hero {
+	background:
+	url(../images/istock_bluebonnets.jpg) no-repeat center center fixed;
+	/*background-repeat: no-repeat;*/
+	/*background-position: bottom center;*/
+	/*background-attachment: fixed;*/
+	background-size: cover;
+	height: 600px;
+}
+
+#slogan {
+	
+	color:#fff;
+	font-family: Catamaran, sans-serif;
+	font-size: 2.1em;
+	text-align: center;
+	padding: 200px;
+}
+
+#overlay {
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0, 0, 0, 0.1);
+}
+main {
+	/*background-color: orange;*/
+	/*border: 1px black solid;*/
+	padding: 20px;
+}
+.clearfix:after {
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	display: block;
+	content:" ";
+	clear: both;
+}
+.wrapper {
+	width: 98%;
+	margin: auto;
+}
+.col-3 {
+	width: 30%;
+	margin: 1.5%;
+	float: left;
+	/*background-color: #ffe2b8;*/
+	/*border: 1px black solid;*/
+	padding: 20px;
+}
+.col-3 img {
+	max-width: 308px;
+	display: block;
+	margin: auto;
+}
+
+}
+footer {
+	background-color:#ff957e;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.footer-3 + h3 {
+	text-align: left;
+}
+.bottom {
+	width: 100%;
+	margin: auto;
+	background-color: #d8d8d8;
+}
+.footer-3 {
+	width: 22%;
+	margin: 1.5%;
+	float: left;
+	/*background-color:#ffe2b8;*/
+	/*border: 1px black solid;*/
+	padding: 20px;
+}
+
