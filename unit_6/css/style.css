@@ -144,9 +144,10 @@ footer {
 	padding: 20px;
 }
 
-.footer-3 + h3 {
+footer h3 {
 	text-align: left;
 }
+
 .bottom {
 	width: 100%;
 	margin: auto;
