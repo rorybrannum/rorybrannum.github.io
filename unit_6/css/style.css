@@ -89,7 +89,7 @@ ul,ol {
 	/*background-position: bottom center;*/
 	/*background-attachment: fixed;*/
 	background-size: cover;
-	height: 600px;
+	padding: 200px 0;
 }
 
 #slogan {
@@ -98,17 +98,14 @@ ul,ol {
 	font-family: Catamaran, sans-serif;
 	font-size: 2.1em;
 	text-align: center;
-	padding: 200px;
+	padding: 50px 0;
+	background-color:rgba(0, 0, 0, 0.1);
+	width: 1080px;
+	margin: auto;
+
 }
 
-#overlay {
-	width: 100%;
-	height: 100%;
-	background-color:rgba(0, 0, 0, 0.1);
-}
 main {
-	/*background-color: orange;*/
-	/*border: 1px black solid;*/
 	padding: 20px;
 }
 .clearfix:after {
@@ -127,8 +124,6 @@ main {
 	width: 30%;
 	margin: 1.5%;
 	float: left;
-	/*background-color: #ffe2b8;*/
-	/*border: 1px black solid;*/
 	padding: 20px;
 }
 .col-3 img {
@@ -157,8 +152,6 @@ footer h3 {
 	width: 22%;
 	margin: 1.5%;
 	float: left;
-	/*background-color:#ffe2b8;*/
-	/*border: 1px black solid;*/
 	padding: 20px;
 }
 
