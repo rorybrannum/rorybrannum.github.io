@@ -1,0 +1,243 @@
+@import url(https://fonts.googleapis.com/css?family=Catamaran);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 20px; /*20 px =1em*/
+	color: #222222;
+	line-height: 1.3em;
+}
+
+header {
+	background-color: #7e88ee;
+	padding: 1em;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+}
+h1 {
+	font-family: Catamaran , sans-serif;
+	font-size: 1.6em;
+	color: #ffffff;
+	float: left;
+	padding: .5em;
+	
+}
+
+h2 {
+	font-family: Catamaran, sans-serif;
+	font-size: 1.7em;
+}
+
+h3 {
+	font-family: Catamaran, sans-serif;
+	font-size: 1.2em;
+}
+
+h4 {
+	font-family: Catamaran, sans-serif;
+	font-size: 1.1em;
+}
+h2,h3,h4 {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+nav {
+
+	float: right;
+	font-family: catamaran, sans-serif;
+	padding: 1em;
+	
+}
+
+nav a {
+	color: #fff;
+	float:left;
+	margin-right: 2em;
+	text-decoration: none;
+}
+
+
+
+p {
+	font-family: EB+Garamond, serif;
+	font-size: 1em;
+	line-length: 45em;
+}
+
+a {
+	color:#717ad6;
+}
+
+ul,ol {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 2em;
+
+}
+
+
+
+#hero {
+	background:
+	url(../images/istock_bluebonnets.jpg) no-repeat bottom center fixed;
+	/*background-repeat: no-repeat;*/
+	/*background-position: bottom center;*/
+	/*background-attachment: fixed;*/
+	background-size: cover;
+	padding: 10em 0;
+}
+
+#slogan {
+	
+	color: #7e88ee;
+	font-family: Catamaran, sans-serif;
+	font-size: 1.6em;
+	text-align: center;
+	padding: 1em 0;
+	background-color:rgba(255,255,255, 0.7);
+	width: 42%;
+	margin: auto;
+	border-radius: .5em;
+
+}
+
+main {
+	padding: 1em;
+}
+.clearfix:after {
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	display: block;
+	content:" ";
+	clear: both;
+}
+.wrapper {
+	width: 98%;
+	margin: auto;
+}
+.col-3 {
+	width: 30%;
+	margin: 1.5%;
+	float: left;
+	padding: 1%;
+}
+.col-3 img {
+	max-width: 308px;
+	display: block;
+	margin: auto;
+}
+
+}
+footer {
+	background-color:#ff957e;
+	padding: 1%;
+}
+
+footer h3 {
+	text-align: left;
+}
+
+.bottom {
+	width: 100%;
+	margin: auto;
+	background-color: #d8d8d8;
+}
+.footer-3 {
+	width: 22%;
+	margin: 1.5%;
+	float: left;
+	padding: 1%;
+}
+
+@media only screen and (min-width: 1800px){
+	body {
+		font-size: 24px;
+	}
+
+
+}
+
+@media only screen and (max-width: 1015px) {
+		.col-3 {
+			width: 100%;
+			float: none;
+			height: auto;
+			border-bottom: 3px solid #7e88ee;
+		}
+		.col-3 img {
+			max-width: 100%;
+			padding: 15px 0;
+		}
+
+}
+
+@media only screen and (max-width: 700px) {
+		body {
+			font-size: 16px;
+		}
+
+		
+		nav {
+			padding: 8px;
+		}
+		nav a {
+			
+			/*background-color: red;*/
+			padding: 10px;
+			margin: 5px;
+
+		}
+
+}
+
+@media only screen and (max-width: 600px) {
+		.footer-3:nth-of-type(1) {
+			display: none;
+		}
+		.footer-3:nth-of-type(2) {
+			display: none;
+		}
+		.footer-3:nth-of-type(3) {
+			display: none;
+		}
+
+		.footer-3 {
+			width: 95%;
+			float: none;
+			text-align: center;
+
+		}
+
+		.footer-3 h3 {
+			text-align: center;
+		}
+}
+
+@media only screen and (max-width: 560px) {
+		h1 {
+			float: none;
+			text-align: center;
+		}
+		nav {
+			width: 100%;
+			
+		}
+		nav a {
+		
+			float:none;
+			padding; .5em;
+			margin: .5em;
+		}
+
+}
